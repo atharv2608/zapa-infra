@@ -84,7 +84,7 @@ function Hero() {
         <div className="mt-12">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {/* Product 1 */}
-            <div className="pt-6">
+            <div className="pt-6 shadow-2xl">
               <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
                 <div className="-mt-6">
                   <div>
@@ -105,7 +105,7 @@ function Hero() {
             </div>
 
             {/* Product 2 */}
-            <div className="pt-6">
+            <div className="pt-6 shadow-2xl">
               <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
                 <div className="-mt-6">
                   <div>
@@ -127,7 +127,7 @@ function Hero() {
             </div>
 
             {/* Product 3 */}
-            <div className="pt-6">
+            <div className="pt-6 shadow-2xl">
               <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
                 <div className="-mt-6">
                   <div>
