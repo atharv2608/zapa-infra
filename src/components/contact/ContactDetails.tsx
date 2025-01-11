@@ -10,7 +10,7 @@ function ContactDetails() {
               Contact Information
             </h2>
             <div className="flex items-center space-x-4">
-              <Phone className="w-6 h-6 text-green-600" />
+              <Phone className="w-6 h-6 text-green-700" />
               <div>
                 <p className="text-lg font-medium">
                   Primary: +1 (555) 123-4567
@@ -19,11 +19,11 @@ function ContactDetails() {
               </div>
             </div>
             <div className="flex items-center space-x-4">
-              <Mail className="w-6 h-6 text-green-600" />
+              <Mail className="w-6 h-6 text-green-700" />
               <p className="text-lg">info@zapainfra.com</p>
             </div>
             <div className="flex items-start space-x-4">
-              <MapPin className="w-6 h-6 text-green-600 mt-1" />
+              <MapPin className="w-6 h-6 text-green-700 mt-1" />
               <p className="text-lg">
                 123 Construction Avenue,
                 <br />
@@ -33,7 +33,7 @@ function ContactDetails() {
               </p>
             </div>
             <div className="flex items-center space-x-4">
-              <Clock className="w-6 h-6 text-green-600" />
+              <Clock className="w-6 h-6 text-green-700" />
               <div>
                 <p className="text-lg font-medium">Business Hours</p>
                 <p className="text-gray-600">Monday to Friday: 9 AM – 6 PM</p>
@@ -51,7 +51,7 @@ function ContactDetails() {
             />
           </div>
 
-          //This image is only visible on mobile devices
+          {/* This image is only visible on mobile devices */}
           <div className="flex items-center justify-center md:hidden">
             <img
               src="https://images.pexels.com/photos/392031/pexels-photo-392031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"

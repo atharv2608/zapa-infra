@@ -32,7 +32,7 @@ function Highlights() {
             key={index}
             className="flex flex-col items-center text-center"
           >
-            <item.icon className="w-16 h-16 text-green-600 mb-4" />
+            <item.icon className="w-16 h-16 text-green-700 mb-4" />
             <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
             <p className="text-gray-600">{item.description}</p>
           </div>

@@ -1,7 +1,7 @@
 
 function Hero() {
   return (
-    <section className="relative h-[50vh] bg-green-600 text-white px-5">
+    <section className="relative h-[50vh] bg-green-700 text-white px-5">
         <img
           src="https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           alt="Construction site"

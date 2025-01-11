@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 function CallToAction() {
   return (
@@ -11,12 +12,12 @@ function CallToAction() {
           Contact us for expert advice on selecting the perfect products for
           your project.
         </p>
-        <a
-          href="#"
+        <Link
+          to="/contact"
           className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-green-700 bg-white hover:bg-gray-50 transition duration-150 ease-in-out"
         >
           Contact Us <ArrowRight className="ml-2 h-5 w-5" />
-        </a>
+        </Link>
       </div>
     </section>
   );
