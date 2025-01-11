@@ -10,7 +10,7 @@ const featuredProjects = [
     name: "Skyline Tower",
     location: "New York City",
     materials: "High-strength concrete, Waterproofing membranes",
-    image: "https://plus.unsplash.com/premium_photo-1681691912442-68c4179c530c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc3RydWN0aW9ufGVufDB8fDB8fHww",
+    image: "https://images.pexels.com/photos/534220/pexels-photo-534220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     caption: "Reaching New Heights with Uncompromising Quality",
   },
   {
@@ -18,15 +18,14 @@ const featuredProjects = [
     name: "Coastal Resort",
     location: "Miami Beach",
     materials: "Salt-resistant cement, Eco-friendly insulation",
-    image: "https://plus.unsplash.com/premium_photo-1681691912442-68c4179c530c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc3RydWN0aW9ufGVufDB8fDB8fHww",
-    caption: "Sustainable Luxury Meets Durability",
+    image: "https://images.pexels.com/photos/224924/pexels-photo-224924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
   {
     id: 3,
     name: "Green Valley Bridge",
     location: "Colorado",
     materials: "High-performance concrete, Corrosion-resistant reinforcement",
-    image: "https://plus.unsplash.com/premium_photo-1681691912442-68c4179c530c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc3RydWN0aW9ufGVufDB8fDB8fHww",
+    image: "https://images.pexels.com/photos/7931/pexels-photo-7931.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     caption: "Connecting Communities, Defying Nature",
   },
 ];

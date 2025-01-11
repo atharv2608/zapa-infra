@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center text-white">
       <img
-        src="https://plus.unsplash.com/premium_photo-1681691912442-68c4179c530c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc3RydWN0aW9ufGVufDB8fDB8fHww"
+        src="https://images.pexels.com/photos/176342/pexels-photo-176342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         alt="Zapa Infra Project"
         className="object-cover w-full h-full"
         style={{ position: "absolute", top: 0, left: 0 }}
