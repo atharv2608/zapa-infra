@@ -1,5 +1,8 @@
 import { Card, CardContent } from "../ui/card"
-
+import admixCSeries from "../../assets/products/admix-c-series.webp"
+import concentrate from "../../assets/products/concentrate.webp"
+import dryShake from "../../assets/products/dry-shake.webp"
+import patchNPlug from "../../assets/products/patch-n-plug.webp"
 function FeaturedProducts() {
   return (
     <section className="py-16 px-5">
@@ -10,29 +13,29 @@ function FeaturedProducts() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 {
-                  name: "Premium Cement",
+                  name: "Admix C-Series",
                   description:
-                    "High-strength cement for all your construction needs.",
-                    image: "https://images.pexels.com/photos/2469/building-construction-building-site-constructing.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    "Added to the mix during batching to waterproof concrete from the inside",
+                    image: admixCSeries
                 },
                 {
-                  name: "Waterproof Sealant",
+                  name: "Dry-shake Series",
                   description:
-                    "Advanced sealant for superior water resistance.",
-                    image: "https://cdn.leonardo.ai/users/4b9d42c4-ed5f-4c00-bcd4-1b39c5b0364f/generations/57b7feee-331f-4c50-9d27-02412ae2a50f/Leonardo_Phoenix_10_A_detailed_closeup_photograph_of_a_waterpr_1.jpg"
+                    "Applied to fresh concrete before finishing to seal and protect horizontal surfaces",
+                    image: dryShake
                     
                 },
                 {
-                  name: "Reinforced Steel",
+                  name: "Concentrate",
                   description:
-                    "Durable steel for enhanced structural integrity.",
-                    image: "https://images.pexels.com/photos/46167/iron-rods-reinforcing-bars-rods-steel-bars-46167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    "Applied to concrete for sealing and repair of cracks, joints and honeycomb",
+                    image: concentrate
                 },
                 {
-                  name: "Eco-Friendly Insulation",
+                  name: "Patch’n Plug",
                   description:
-                    "Energy-efficient insulation for sustainable building.",
-                    image: "https://cdn.leonardo.ai/users/4b9d42c4-ed5f-4c00-bcd4-1b39c5b0364f/generations/964b18ea-8058-4cb2-bf83-6183a8b4e26e/Leonardo_Phoenix_10_A_modern_sleek_and_welllit_construction_si_0.jpg"
+                    "Fast-setting hydraulic cement compound for patching and repairs",
+                    image: patchNPlug
                 },
               ].map((product, index) => (
                 <Card key={index} className="overflow-hidden">
@@ -42,7 +45,7 @@ function FeaturedProducts() {
                     alt={product.name}
                     width={300}
                     height={200}
-                    className="w-full h-48 object-cover"
+                    className="w-full object-cover"
                   />
                   <CardContent className="p-4">
                     <h3 className="text-xl font-semibold mb-2">

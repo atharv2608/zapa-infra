@@ -11,9 +11,9 @@ function Highlights() {
         {[
           {
             icon: Shield,
-            title: "High-Quality Materials",
+            title: "High-Quality Solutions",
             description:
-              "We source and provide only the best construction materials for your projects.",
+              "We source and provide only the best water proofing material for your projects.",
           },
           {
             icon: Truck,
