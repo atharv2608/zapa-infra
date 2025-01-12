@@ -1,36 +1,56 @@
-
+import admixCSeries from "../../assets/products/admix-c-series.webp"
+import bioSan from "../../assets/products/bio-san.webp"
+import concentrate from "../../assets/products/concentrate.webp"
+import modifiedCoating from "../../assets/products/modified-coating.webp"
+import patchNPlug from "../../assets/products/patch-n-plug.webp"
+import megamixSeries from "../../assets/products/megamix-series.webp"
+import fcm80 from "../../assets/products/fcm-80.webp"
+import restoraTopSeries from "../../assets/products/restora-top-series.webp"
+import gammaCure from "../../assets/products/gamma-cure.webp"
+import xycrylicAdmix from "../../assets/products/xycrylic-admix.webp"
+import quickset from "../../assets/products/quickset.webp"
+import dryShake from "../../assets/products/dry-shake.webp"
 function ProductsList() {
     const categories = [
         {
-          name: "Cements",
-          description: "High-quality cement for all your construction needs",
+          name: "Admixtures / Additives",
+          description: "",
           products: [
-            { name: "Premium Portland Cement", description: "Superior strength for structural applications", image: "https://plus.unsplash.com/premium_photo-1681989486976-9ec9d2eac57a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Quick-Set Cement", description: "Rapid hardening for time-sensitive projects", image: "https://plus.unsplash.com/premium_photo-1681989486976-9ec9d2eac57a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Masonry Cement", description: "Ideal for brickwork and stonework", image: "https://plus.unsplash.com/premium_photo-1681989486976-9ec9d2eac57a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Admix C-Series", description: "Added to the mix during batching to waterproof concrete from the inside", image: admixCSeries },
+            { name: "Bio-San", description: "Antimicrobial admixture to prevent MIC in harsh sewage conditions", image: bioSan },
           ]
         },
         {
-          name: "Waterproofing Materials",
-          description: "Effective solutions to keep water out",
+          name: "Surface Applied Coatings",
+          description: "",
           products: [
-            { name: "Liquid Membrane", description: "Seamless waterproofing for roofs and basements", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVVwBNkwiEfVBBtTFrjyDKB8STRVkTq_PPJw&s" },
-            { name: "Crystalline Waterproofing", description: "Penetrates concrete for long-lasting protection", image: "https://plus.unsplash.com/premium_photo-1681989486976-9ec9d2eac57a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Waterproof Sealant", description: "Flexible sealant for joints and cracks", image: "https://plus.unsplash.com/premium_photo-1681989486976-9ec9d2eac57a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Concentrate", description: "Applied to concrete for sealing and repair of cracks, joints and honeycomb", image: concentrate },
+            { name: "Modified Coating", description: "Reinforces Xypex Concentrate when used as a second coat, producing a harder finish", image: modifiedCoating },
           ]
         },
         {
-          name: "Adhesives",
-          description: "Strong bonding solutions for various materials",
+          name: "Repair & Accessories ",
+          description: "",
           products: [
-            { name: "Tile Adhesive", description: "High-strength adhesive for ceramic and porcelain tiles", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc7wD4HWZYbBi6Yd9ohihPc7-lVP_2gEg3tA&s" },
-            { name: "Construction Epoxy", description: "Heavy-duty epoxy for structural bonding", image: "https://media.istockphoto.com/id/1440985319/photo/closeup-shot-of-a-construction-worker-pouring-out-epoxy-resin-from-a-bucket-onto-a-floor.jpg?s=612x612&w=0&k=20&c=Su6JHaswnvweibe_RmZ48HuCHN7weeahiinlQzJd6uc=" },
-            { name: "Multi-Purpose Adhesive", description: "Versatile adhesive for general construction use", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMmIz1nxBA0_aKNY2faLTSxhau2g4uSk5O4g&s" },
+            { name: "Patch’n Plug", description: "Fast-setting hydraulic cement compound for patching and repairs", image: patchNPlug },
+            { name: "Megamix Series", description: "Thin coating for waterproofing and resurfacing of masonry and vertical surfaces", image: megamixSeries },
+            { name: "FMC 80", description: "Repairs cracks and seals joints on surfaces subject to movement", image: fcm80 },
+            { name: "Restora-Top Series", description: "Quick-curing compound for concrete floors, decks, and horizontal surfaces", image: restoraTopSeries },
+            { name: "Gamma Cure", description: "Specially designed curing agent for Xypex crystalline waterproofing products", image: gammaCure },
+            { name: "Xycrylic Admix", description: "Water-based polymer to add bonding strength to portland cement mixes", image: xycrylicAdmix },
+            { name: "Quickset", description: "Hardens, dustproofs and seals fresh and newly cured concrete surfaces", image: quickset },
+          ]
+        },
+        {
+          name: "Dry-Shake Product ",
+          description: "",
+          products: [
+            { name: "Dry-shake Series", description: "Applied to fresh concrete before finishing to seal and protect horizontal surfaces", image: dryShake },
           ]
         },
       ]
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8">
+    <section className="py-16 px-8 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           {categories.map((category, index) => (
             <div key={index} className="mb-16">
@@ -39,7 +59,11 @@ function ProductsList() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {category.products.map((product, productIndex) => (
                   <div key={productIndex} className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105">
-                    <img src={product.image} alt={product.name} width={400} height={300} className="w-full h-48 object-cover" />
+                    <img 
+                      src={product.image} 
+                      alt={product.name} 
+                      className="w-full h-48 object-contain"
+                    />
                     <div className="p-6">
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">{product.name}</h3>
                       <p className="text-gray-600">{product.description}</p>
