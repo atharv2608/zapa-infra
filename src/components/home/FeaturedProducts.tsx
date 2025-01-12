@@ -45,7 +45,7 @@ function FeaturedProducts() {
                     alt={product.name}
                     width={300}
                     height={200}
-                    className="w-full object-cover"
+                    className="w-full h-48 object-contain"
                   />
                   <CardContent className="p-4">
                     <h3 className="text-xl font-semibold mb-2">

@@ -1,14 +1,15 @@
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
-
+import logo from "../assets/zapa-infra-logo.png";
 function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4">Zapa Infra</h3>
-            <p className="text-gray-400">
+            <img src={logo} alt="Zapa Infra" height={70} width={70} className="hidden md:block"/>
+            <h3 className="text-xl font-semibold mb-4 md:ml-5 md:mt-5 ">Zapa Infra</h3>
+            <p className="text-gray-400 md:ml-5">
               Building a stronger future with quality materials.
             </p>
           </div>

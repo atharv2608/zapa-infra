@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-
+import logo from "../assets/zapa-infra-logo.png"
 // Replace this with your Logo component or an appropriate image
-const Logo = () => <div className="text-xl font-bold text-[#28a745]">Zapa Infra</div>;
+const Logo = () => <img src={logo} alt="Zapa Infra" height={70} width={70}/>
 
 const menuItems = [
   { name: 'Home', href: '/' },
