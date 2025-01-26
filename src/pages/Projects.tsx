@@ -1,7 +1,6 @@
 import Achievements from "@/components/projects/Achievements"
 import CallToAction from "@/components/projects/CallToAction"
 import CompletedProjects from "@/components/projects/CompletedProjects"
-import FeaturedWorks from "@/components/projects/FeaturedWorks"
 import Hero from "@/components/projects/Hero"
 
 
