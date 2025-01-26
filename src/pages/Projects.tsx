@@ -1,28 +1,28 @@
 import Achievements from "@/components/projects/Achievements"
 import CallToAction from "@/components/projects/CallToAction"
+import CompletedProjects from "@/components/projects/CompletedProjects"
 import FeaturedWorks from "@/components/projects/FeaturedWorks"
 import Hero from "@/components/projects/Hero"
-import Works from "@/components/projects/Works"
 
 
 function Projects() {
   return (
     <div className="min-h-screen bg-white">
-    {/* Hero Section */}
-    <Hero />
+      {/* Hero Section */}
+      <Hero />
 
-    {/* Featured Works Carousel */}
-   <FeaturedWorks />
+      {/* Featured Works Carousel */}
+      {/* <FeaturedWorks /> */}
 
-    {/* Other Projects Section */}
-    <Works />
+      {/* Completed Works Carousel */}
+      <CompletedProjects />
 
-    {/* Achievements and Highlights */}
-    <Achievements />
+      {/* Achievements and Highlights */}
+      <Achievements />
 
-    {/* Call-to-Action */}
-    <CallToAction />
-  </div>
+      {/* Call-to-Action */}
+      <CallToAction />
+    </div>
   )
 }
 
