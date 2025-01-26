@@ -1,17 +1,18 @@
 
 import { useState } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
-import adelaide1 from "../../assets/projects/port-adelaide/Picture1.png"
-import adelaide2 from "../../assets/projects/port-adelaide/Picture2.png"
-import adelaide3 from "../../assets/projects/port-adelaide/Picture3.png"
-import adelaide4 from "../../assets/projects/port-adelaide/Picture4.png"
-import adelaide5 from "../../assets/projects/port-adelaide/Picture5.png"
-import marineComplex1 from "../../assets/projects/australian-marine-complex/Picture1.png"
-import marineComplex2 from "../../assets/projects/australian-marine-complex/Picture2.png"
-import marineComplex3 from "../../assets/projects/australian-marine-complex/Picture3.png"
-import esso1 from "../../assets/projects/esso-port/Picture1.png"
-import esso2 from "../../assets/projects/esso-port/Picture2.png"
-import busselton1 from "../../assets/projects/busselton-jetty/Picture1.png"
+import adelaide1 from "../../assets/projects/port-adelaide/picture1.webp"
+import adelaide2 from "../../assets/projects/port-adelaide/picture2.webp"
+import adelaide3 from "../../assets/projects/port-adelaide/picture3.webp"
+import adelaide4 from "../../assets/projects/port-adelaide/picture4.webp"
+import adelaide5 from "../../assets/projects/port-adelaide/picture5.webp"
+import marineComplex1 from "../../assets/projects/australian-marine-complex/picture1.webp"
+import marineComplex2 from "../../assets/projects/australian-marine-complex/picture2.webp"
+import marineComplex3 from "../../assets/projects/australian-marine-complex/picture3.webp"
+
+import esso1 from "../../assets/projects/esso-port/picture1.webp"
+import esso2 from "../../assets/projects/esso-port/picture2.webp"
+import busselton1 from "../../assets/projects/busselton-jetty/picture1.webp"
 type Project = {
     id: number
     name: string
@@ -86,11 +87,11 @@ function ProjectItem({ project, isReversed }: { project: Project; isReversed: bo
     const carouselSection = (
         <div className="relative md:w-1/2">
             <div className="aspect-w-16 aspect-h-9 relative overflow-hidden rounded-lg shadow-lg">
-                    <img
-                        src={project.images[currentImageIndex]}
-                        alt={`${project.name} - Image ${currentImageIndex + 1}`}
-                        className="absolute inset-0 w-full h-full object-cover"
-                    />
+                <img
+                    src={project.images[currentImageIndex]}
+                    alt={`${project.name} - Image ${currentImageIndex + 1}`}
+                    className="absolute inset-0 w-full h-full object-cover"
+                />
             </div>
             <button
                 onClick={prevImage}
