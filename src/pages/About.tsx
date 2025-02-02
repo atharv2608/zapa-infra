@@ -1,6 +1,5 @@
 import CallToAction from "@/components/about/CallToAction";
 import CompanyOverview from "@/components/about/CompanyOverview";
-import Gallery from "@/components/about/Gallery";
 import Hero from "@/components/about/Hero";
 import Highlights from "@/components/about/Highlights";
 import TeamValues from "@/components/about/TeamValues";
