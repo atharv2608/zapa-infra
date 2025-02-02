@@ -7,10 +7,10 @@ function CompanyOverview() {
         <div className="md:w-1/2">
           <h2 className="text-3xl font-bold mb-4 text-green-700">Our Story</h2>
           <p className="text-gray-700 mb-4">
-            Founded in 2005, Zapa Infra has been at the forefront of the construction materials industry for over 15 years. We specialize in providing high-quality waterproofing materials and cements that meet the evolving needs of modern construction projects.
+          At Zapa, we are pioneers in advanced waterproofing and concrete protection solutions. With decades of innovation and expertise, we provide industry-leading technologies that extend the life and durability of concrete structures. 
           </p>
           <p className="text-gray-700 mb-4">
-            Our commitment to innovation, sustainability, and customer satisfaction has made us a trusted partner for contractors, architects, and builders across the country.
+          Our proprietary crystalline technology has been trusted worldwide to enhance the resilience of infrastructure, commercial buildings, and industrial projects. Driven by quality, performance, and sustainability, we continue to redefine concrete protection for a stronger and more durable future.
           </p>
         </div>
         <div className="md:w-1/2">

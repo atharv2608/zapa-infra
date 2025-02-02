@@ -21,7 +21,7 @@ const About = () => {
       <TeamValues />
 
       {/* Gallery Section */}
-      <Gallery />
+      {/* <Gallery /> */}
       
       {/* Call-to-Action (CTA) */}
       <CallToAction />
