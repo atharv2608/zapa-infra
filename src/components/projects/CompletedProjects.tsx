@@ -1,54 +1,14 @@
 
 import { useState } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
-import adelaide1 from "../../assets/projects/port-adelaide/picture1.webp"
-import adelaide2 from "../../assets/projects/port-adelaide/picture2.webp"
-import adelaide3 from "../../assets/projects/port-adelaide/picture3.webp"
-import adelaide4 from "../../assets/projects/port-adelaide/picture4.webp"
-import adelaide5 from "../../assets/projects/port-adelaide/picture5.webp"
-import marineComplex1 from "../../assets/projects/australian-marine-complex/picture1.webp"
-import marineComplex2 from "../../assets/projects/australian-marine-complex/picture2.webp"
-import marineComplex3 from "../../assets/projects/australian-marine-complex/picture3.webp"
 
-import esso1 from "../../assets/projects/esso-port/picture1.webp"
-import esso2 from "../../assets/projects/esso-port/picture2.webp"
-import busselton1 from "../../assets/projects/busselton-jetty/picture1.webp"
 type Project = {
     id: number
     name: string
     description: string
     images: string[]
 }
-const projects = [
-    {
-        id: 1,
-        name: "Port Adelaide Berth 8, South Australia",
-        description:
-            "A 30-story residential complex featuring our premium waterproofing solutions and eco-friendly insulation materials. This project showcases our commitment to sustainable urban living, providing residents with a comfortable and energy-efficient home.",
-        images: [adelaide1, adelaide2, adelaide3, adelaide4, adelaide5],
-    },
-    {
-        id: 2,
-        name: "Australian Marine Complex, Henderson, Western Australia",
-        description:
-            "State-of-the-art convention center built with our high-strength concrete and innovative sound-dampening materials. This versatile space accommodates large-scale events while maintaining optimal acoustics and structural integrity.",
-        images: [marineComplex1, marineComplex2, marineComplex3],
-    },
-    {
-        id: 3,
-        name: "Esso Port Stanvac - Loading Wharf South Australia",
-        description:
-            "Modern healthcare facility utilizing our antimicrobial flooring and specialized air filtration systems. Our materials contribute to a sterile environment, promoting patient health and recovery in this cutting-edge medical center.",
-        images: [esso1, esso2],
-    },
-    {
-        id: 4,
-        name: "The 1836-meter-long Busselton Jetty, Busselton, Western Australia",
-        description:
-            "A 2-mile waterfront development featuring our salt-resistant paving materials and durable outdoor fixtures. This project demonstrates our expertise in creating long-lasting infrastructure in challenging coastal environments.",
-        images: [busselton1],
-    },
-]
+import { projects } from "./MobileCompletedProjects"
 
 export default function CompletedProjects() {
     return (
