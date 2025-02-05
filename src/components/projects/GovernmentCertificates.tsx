@@ -1,4 +1,5 @@
-
+import { useState } from "react"
+import { Dialog, DialogContent } from "../ui/dialog"
 import cc01 from "../../assets/projects/certificates/cc01.webp"
 import cc02 from "../../assets/projects/certificates/cc02.webp"
 import cc03 from "../../assets/projects/certificates/cc03.webp"
@@ -19,12 +20,11 @@ import cc17 from "../../assets/projects/certificates/cc17.webp"
 import cc18 from "../../assets/projects/certificates/cc18.webp"
 import cc19 from "../../assets/projects/certificates/cc19.webp"
 import cc20 from "../../assets/projects/certificates/cc20.webp"
-import { useState } from "react"
-
-// This array would contain your actual certificate image paths
 const certificateImages = [cc01, cc02, cc03, cc04, cc05, cc06, cc07, cc08, cc09, cc10, cc11, cc12, cc13, cc14, cc15, cc16, cc17, cc18, cc19, cc20]
+
 export default function GovernmentCertificates() {
     const [visibleImages, setVisibleImages] = useState(12)
+    const [selectedImage, setSelectedImage] = useState<string | null>(null)
 
     const loadMore = () => {
         setVisibleImages((prevVisible) => Math.min(prevVisible + 12, certificateImages.length))
@@ -40,16 +40,17 @@ export default function GovernmentCertificates() {
                 </p>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
                     {certificateImages.slice(0, visibleImages).map((src, index) => (
-                        <div key={index} className="aspect-w-3 aspect-h-4 bg-white rounded-lg shadow-md overflow-hidden">
-
-
+                        <div 
+                            key={index} 
+                            className="aspect-w-3 aspect-h-4 bg-white rounded-lg shadow-md overflow-hidden cursor-pointer"
+                            onClick={() => setSelectedImage(src)}
+                        >
                             <img
                                 src={src || "/placeholder.svg"}
                                 alt={`Government Certificate ${index + 1}`}
                                 className="w-full h-full object-cover transition-opacity duration-300 hover:opacity-80"
                                 loading="lazy"
                             />
-
                         </div>
                     ))}
                 </div>
@@ -63,8 +64,18 @@ export default function GovernmentCertificates() {
                         </button>
                     </div>
                 )}
+
+<Dialog open={!!selectedImage} onOpenChange={() => setSelectedImage(null)}>
+    <DialogContent className="max-w-2xl p-4">
+        <img
+            src={selectedImage || "/placeholder.svg"}
+            alt="Certificate Preview"
+            className="w-full max-h-[80vh] object-contain"
+        />
+    </DialogContent> 
+</Dialog>
+
             </div>
         </section>
     )
 }
-
