@@ -1,6 +1,7 @@
 import Achievements from "@/components/projects/Achievements"
 import CallToAction from "@/components/projects/CallToAction"
 import CompletedProjects from "@/components/projects/CompletedProjects"
+import GovernmentCertificates from "@/components/projects/GovernmentCertificates"
 import Hero from "@/components/projects/Hero"
 import MobileCompletedProjects from "@/components/projects/MobileCompletedProjects"
 
@@ -22,6 +23,8 @@ function Projects() {
       <div className="md:hidden px-8 py-10">
         <MobileCompletedProjects />
       </div>
+
+      <GovernmentCertificates />
 
       {/* Achievements and Highlights */}
       <Achievements />
